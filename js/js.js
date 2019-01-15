@@ -6,7 +6,8 @@ function pressedForTime() {
     var hour = today.getHours();
     var minute = today.getMinutes();
     var second = today.getSeconds();
-    var time =  [hour, minute, second].join(':')
-    var d8 = [year, month, day].join('/')
-    alert("Currently: " + [d8, time].join(' '))
+    var time =  [hour, minute, second].join(':');
+    var d8 = [year, month, day].join('/');
+    console.log([d8, time].join(' '));
+    alert("Currently: " + [d8, time].join(' '));
 }

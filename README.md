@@ -1,2 +1,4 @@
 # miscdats.github.io
-mipage
+my page is at miscdats.github.io
+
+Thanks for reading!

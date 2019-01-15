@@ -1,0 +1,65 @@
+/* CSS Styles*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    width: 88%;
+    margin: auto;
+}
+
+header {
+    width: 99%;
+    background-color: slategrey;
+    padding-left: 25px;
+}
+
+main {
+    float:left;
+    width: 40%;
+    background-color: slategrey;
+    margin: 25px 0 25px 75px;
+    padding: 25px;
+}
+
+aside {
+    float: right;
+    width: 35%;
+    margin: 25px 75px 25px 0;
+}
+
+footer {
+    height: 30px;
+    clear: both;
+    background-color: slategrey;
+    padding-top: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*      +++ Typography +++      */
+
+header {
+    font-family: 'Quantico', sans-serif;
+    color: darkgreen;
+}
+
+main p {
+    margin:auto;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    color: darkslateblue;
+}
+
+footer button {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

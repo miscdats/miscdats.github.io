@@ -8,6 +8,7 @@
     <title>:: Deyanira Taupier :: developer</title>
 
     <link rel="stylesheet" href="styles/css.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Quantico|Raleway" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/js.js"></script>
@@ -15,67 +16,60 @@
 
 <body class="main" tabindex="0">
   <div id="wrap">
-
     <div class="section group">
-    	<div class="col span_1_of_3">
-    	This is column 1
-    	</div>
-    	<div class="col span_1_of_3">
-    	This is column 2
-    	</div>
-    	<div class="col span_1_of_3">
-    	This is column 3
-    	</div>
-    </div>
-
-    <div id="nav_bar">
-      <nav class="menu"> <!-- change to show when show-->
-        <a rel="home" class="home-link">
-          <i class="icon-home">
-            ::before
-          </i>
-          ::after
-        </a>
-        <a rel="about" class="about-link">
-          <i class="icon-about">
-            ::before
-          </i>
-          ::after
-        </a>
-        <a rel="work" class="work-link">
-          <i class="icon-work">
-            ::before
-          </i>
-          ::after
-        </a>
-        <a rel="contact" class="contact-link">
-          <i class="icon-contact">
-            ::before
-          </i>
-          ::after
-        </a>
-      </div>
-    <header>
-        <h1>:: Hi, I'm Deya.</h1>
-        <h2>I develop websites and small apps.</h2>
-        <h3>Front End / Back End / +</h3>
+    <header class="col span_1_of_3">
+      <h1>:: Hi, I'm Deya.</h1>
+      <h2>I develop websites and small apps.</h2>
+      <h3>Front End / Back End / +</h3>
     </header>
+      <div id="nav_bar" class="col span_2_of_3">
+        <nav class="menu"> <!-- change to show when show-->
+          <a href="#home" class="home-link">
+            <i class="far fa-dizzy">
+              <!-- ::before -->
+            </i>
+            <!-- ::after -->
+          </a>
+          <a href="#about" class="about-link">
+            <i class="fas fa-coffee">
+            </i>
+          </a>
+          <a href="#work" class="work-link">
+            <i class="fas fa-code">
+            </i>
+          </a>
+          <a href="#contact" class="contact-link">
+            <i class="fab fa-connectdevelop">
+            </i>
+          </a>
+        </nav>
+      </div>
 
-    <main>
-        <p> Sometimes I code. Sometimes I script. Sometimes I'm programming.
+      <main>
+        <div id="about">
+          <p> Sometimes I code. Sometimes I script. Sometimes I'm programming.
             But all I really want is to improve things. All over the net.<br>
             Maybe all we need is time...<br>
-        <br>For any questions feel free to contact <a href="https://www.google.com/" target="_blank" alt="your friend">someone</a>.<br>
-        <p> <a href="https://github.com/miscdats" alt="Deya's repos.">Work</a> I've been working on.
-    </main>
+        </div>
 
-    <aside>
-        <img src="images/spears.png" alt="hey, britney.">
-    </aside>
+        <div id="work">
+          <br><p><a href="https://github.com/miscdats" alt="Deya's repos.">Work</a> I've been working on.
+        </div>
 
-    <footer>
+        <div id="contact">
+          <br><p>For any questions feel free to contact <a href="https://www.google.com/" target="_blank" alt="your friend">someone</a>.<br>
+        </div>
+      </main>
 
-    </footer>
+
+
+      <footer>
+        <ul>
+            <li> &copy; 2019</li>
+            <li><a href="#home">Web Design by Deya!</a></li>
+        </ul>
+      </footer>
+    </div><!-- end group-->
   </div> <!-- end wrap -->
 </body>
 

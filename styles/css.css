@@ -82,6 +82,8 @@ img {
 a {
   color: #087e8b;
   text-decoration: none;
+  opacity: 1;
+  font-weight: bold;
 }
 
 header {
@@ -92,16 +94,17 @@ header {
 }
 
 header h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #087e8b;
   line-height: 70px;
   margin-bottom: 10px;
 }
 
 header h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #f5f5f5;
   text-shadow: none;
+  letter-spacing: 1.5px;
 }
 
 header h3 {
@@ -112,7 +115,7 @@ header h3 {
 }
 
 main p {
-    margin:auto;
+    margin:auto auto 10px;
     line-height: 1.5;
     font-family: 'Raleway', sans-serif;
     color: #f5f5f5;

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/css.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Quantico|Raleway" rel="stylesheet">
+    <link href="styles/lightbox.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/js.js"></script>
 </head>
@@ -24,8 +25,7 @@
         <nav class="menu"> <!-- change to show when show-->
           <a href="#home" class="home-link">
             <i class="far fa-dizzy">
-              <!-- ::before -->
-            </i>
+            </i><!-- ::before -->
             <!-- ::after -->
           </a>
           <a href="#about" class="about-link">
@@ -61,8 +61,11 @@
             use! </p>
           <p>If you would like to build something together,
             <a href="#contact">reach out</a>.</p>
-          <p>On my off time, my puppy <a href="images/bongo.jpg">Bongo</a>
-             and I go frolic into the wilds.</p>
+
+          <p>On my off time, my puppy
+            <a href="images/bongo.jpg" data-lightbox="Bongo"
+              data-title="My pup!">Bongo</a>
+            and I go frolic into the wilds.</p>
         </div>
 
         <div id="work">
@@ -88,6 +91,7 @@
     </div><!-- end group-->
   </div> <!-- end col2of3-->
   </div> <!-- end wrap -->
+  <script src="js/lightbox.js"></script>
 </body>
 
 </html>

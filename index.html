@@ -22,7 +22,7 @@
       <h1 id="home">:: Hi, I'm Deya.</h1>
       <h2>I develop websites <br> and small apps.</h2>
       <h3>Front End / Back End / +</h3>
-      <div></div>  
+      <div></div>
       <div id="nav_bar">
         <nav class="menu">
           <menu>
@@ -63,6 +63,10 @@
         </div>
 
         <div id="about">
+          <h1>Little lady, big city!</h1>
+          <h2> Based in Seattle, WA.</h2>
+          <p> I am originally from Miami, FL; surviving the heat used to
+            be my primary goal. Now I am the heat!</p>
           <p> I've always had a passion for improving things. I seek out
             what needs doing and enjoy the process as much as the result.
             My skills are broad, ranging from design to ux and working front
@@ -93,6 +97,29 @@
         <div id="contact">
           <p>For any questions feel free to contact
             <a href="mailto:deyanira@taupier.dev">me</a>.</p>
+            <div class="form-container">
+              <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+              </form>
+            </div>
         </div>
       </main>
 

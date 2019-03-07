@@ -123,6 +123,10 @@ main p {
     font-size: 1.2rem;
 }
 
+#about p {
+  text-indent: 1rem;
+}
+
 footer {
   font-family: 'Quantico', sans-serif;
 }

@@ -15,25 +15,34 @@
 }
 
 body {
-    background: #3c3c3c;
-    width: 88%;
-    margin: auto;
+  background: #c1839f url('../images/vapormt.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
 }
 
 header {
   width: 99%;
-  padding: 35px;
-  background: #c1839f;
+  padding: 0;
+  position: sticky;
 }
 
 #wrap {
-  background: #f5f5f5;
+  margin: auto 25px auto 25px;
+}
+
+#nav_bar {
+  padding: 0;
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  display: block;
 }
 
 main {
-    float:left;
-    width: 40%;
-    margin: 25px 0 25px 75px;
+    /* margin: 25px 0 25px 75px; */
     padding: 25px;
 }
 
@@ -65,38 +74,50 @@ img {
 
 /*      +++ Typography +++      */
 
-i {
+#nav_bar i {
   font-size: 3rem;
-  padding: 3px;
-  margin: 5px auto auto 70px;
+  padding: 15px;
 }
 
 a {
   color: #087e8b;
+  text-decoration: none;
 }
 
 header {
-    font-family: 'Quantico', sans-serif;
+  font-family: 'Quantico', sans-serif;
+  text-align: right;
+  opacity: .8;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #087e8b;
+  line-height: 70px;
+  margin-bottom: 10px;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  color: #f5f5f5;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: .75rem;
+  color: #3c3c3c;
+  margin-bottom: 5px;
 }
 
 main p {
     margin:auto;
     line-height: 1.5;
     font-family: 'Raleway', sans-serif;
-    color: darkslateblue;
+    color: #f5f5f5;
+    opacity: 1;
+}
+
+footer {
+  font-family: 'Quantico', sans-serif;
 }
 
 footer li {
@@ -108,8 +129,11 @@ footer li {
 /*  SECTIONS  */
 .section {
 	clear: both;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	/* margin: 0px; */
+  margin: 50px 0 50px 0;
+  opacity: .7;
+  background-color: #3c3c3c;
 }
 
 /*  COLUMN SETUP  */

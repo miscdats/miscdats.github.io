@@ -27,25 +27,25 @@
         <nav class="menu">
           <menu>
             <li>
-              <button><a href="#home" class="home-link">
+              <button id="home-btn"><a href="#" rel="splash" class="home-link">
                   <span><i class="far fa-dizzy"></i></span>
                   <span>Home</span>
               </a></button>
             </li>
             <li>
-              <button><a href="#about" class="about-link">
+              <button id="about-btn"><a href="#" rel="about" class="about-link">
                   <span><i class="fas fa-coffee"></i></span>
                   <span>About</span>
               </a></button>
             </li>
             <li>
-              <button><a href="#work" class="work-link">
+              <button id="work-btn"><a href="#" rel="work" class="work-link">
                   <span><i class="fas fa-code"></i></span>
                   <span>Works</span>
               </a></button>
             </li>
             <li>
-              <button><a href="#contact" class="contact-link">
+              <button id="contact-btn"><a href="#" rel="contact" class="contact-link">
                   <span><i class="fab fa-connectdevelop"></i></span>
                   <span>Contact</span>
               </a></button>
@@ -57,13 +57,18 @@
 
     <div class="col span_2_of_3">
     <div class="section group">
+      <div id="banner">
+        <img src="images/leaf-bg.png" alt="Welcome to Taupier.dev">
+      </div>
       <main>
+      <div id="innards">
 
         <div id="splash">
+          <h1> :) </h1>
         </div>
 
-        <div id="about">
-          <h1>Little lady, big city!</h1>
+        <div id="about" style="display: none">
+          <h1>About me</h1>
           <h2> Based in Seattle, WA.</h2>
           <p> I am originally from Miami, FL; surviving the heat used to
             be my primary goal. Now I am the heat!</p>
@@ -74,7 +79,7 @@
           <p> Each day, I learn something new and can't wait to put it to good
             use!
             If you would like to build something together,
-            <a href="#contact">reach out</a>~*</p>
+            <a href="mailto:deyanira@taupier.dev">reach out</a>~*</p>
           <p>Currently, I attend college in a program for Application
             Development with a Bachelor's of Applied Science as a junior.
             Much like Computer Science, I am learning data structures and
@@ -91,42 +96,59 @@
             data-title="Yuffie in her Kirby cave">Yuffie</a>.</p>
         </div>
 
-        <div id="work">
-          <p>
-            <a href="https://github.com/miscdats" alt="Deya's repos.">
+        <div id="work" style="display: none">
+          <h1>What I've been up to</h1>
+          <p><a href="https://github.com/miscdats" alt="Deya's repos.">
             Work</a> I've been working on.</p>
         </div>
 
-        <div id="contact">
-          <p>For any questions feel free to contact
-            <a href="mailto:deyanira@taupier.dev">me</a>.</p>
+        <div id="contact" style="display: none">
+          <h1>Contact me</h1>
+          <p>
+            <a href="https://linkedin.com/in/taupier">
+              <i class="fab fa-linkedin"></i></a>
+            <a href="https://paypal.me/deyavu">
+              <i class="fab fa-paypal"></i></a>
+            <a href="https://join.slack.com/t/taupier/shared_invite/enQtNTcxMTUwNDE4OTYxLWI0N2JhMmE2MDdlMzMwNzU3YWRmNWFlNDA1ZWVkYWZkMTg1ZmIyMmE2ZTVlYTU1ZDY5N2RlM2Y2ODdhN2IzOTE">
+              <i class="fab fa-slack-hash"></i></a>
+          </p>
+          <p>For any inquiries, feel free to contact
+            <a href="mailto:deyanira@taupier.dev">me</a>.<br>
+            I'm always willing to help out.</p>
             <div class="form-container">
               <form action="action_page.php">
 
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="text" id="fname" name="firstname"
+                  placeholder="First Name" required>
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <input type="text" id="lname" name="lastname"
+                  placeholder="Last Name" required>
 
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                  <option value="australia">Australia</option>
-                  <option value="canada">Canada</option>
-                  <option value="usa">USA</option>
-                </select>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                  placeholder="woo@hoo.com" required>
 
                 <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selection selected hidden>Please choose a topic</option>
+                  <option value="Consultation">Consultation</option>
+                  <option value="Collaboration">Collaboration</option>
+                  <option value="Creation">Creation [a job for me!]</option>
+                </select>
 
-                <input type="submit" value="Submit">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write me!"
+                  style="height:200px" required></textarea>
+
+                <input type="submit" value="Submit to me~*">
 
               </form>
             </div>
         </div>
+      </div>
       </main>
-
-
 
       <footer>
         <ul>

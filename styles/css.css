@@ -60,7 +60,7 @@ header {
   display: flex;
   /* width: 150px;
   height: 100px; */
-  margin: 5px 0 0 50px;
+  margin: 15px 0 0 50px;
   right: 0;
   width: 150px;
 }
@@ -208,7 +208,7 @@ main p {
 }
 
 #about h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #ff5a5f;
   text-shadow: none;
   letter-spacing: 1.5px;
@@ -217,7 +217,7 @@ main p {
 }
 
 #about h2 {
-  font-size: .75rem;
+  font-size: 1.25rem;
   color: #c1839f;
   margin-bottom: 15px;
   text-shadow: none;

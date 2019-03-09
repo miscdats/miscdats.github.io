@@ -15,6 +15,7 @@ html.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   display: none;
+  font-family: 'Quantico', sans-serif;
 }
 
 .lightbox {
@@ -25,6 +26,7 @@ html.lb-disable-scrolling {
   text-align: center;
   line-height: 0;
   font-weight: normal;
+  font-family: 'Quantico', sans-serif;
 }
 
 .lightbox .lb-image {
@@ -35,7 +37,7 @@ html.lb-disable-scrolling {
   border-radius: 3px;
 
   /* Image border */
-  border: 4px solid white;
+  border: 4px dashed #087e8b;
 }
 
 .lightbox a img {
@@ -52,7 +54,7 @@ html.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: white;
+  background-color: #c1839f;
 }
 
 .lb-outerContainer:after {
@@ -156,7 +158,7 @@ html.lb-disable-scrolling {
 
 .lb-data {
   padding: 0 4px;
-  color: #ccc;
+  color: #ff5a5f;
 }
 
 .lb-data .lb-details {
@@ -167,21 +169,22 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 1em;
 }
 
 .lb-data .lb-caption a {
-  color: #4ae;
+  color: #ff5a5f;
 }
 
 .lb-data .lb-number {
   display: block;
   clear: left;
   padding-bottom: 1em;
-  font-size: 12px;
-  color: #999999;
+  font-size: .8rem;
+  color: #f5f5f5;
+  font-family: 'Raleway', sans-serif;
 }
 
 .lb-data .lb-close {

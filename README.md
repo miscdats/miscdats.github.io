@@ -1,4 +1,4 @@
 # miscdats.github.io
-my page is at miscdats.github.io
+personal page at www.taupier.dev
 
 Thanks for reading!

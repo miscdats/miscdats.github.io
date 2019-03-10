@@ -347,6 +347,13 @@ input[type=submit]:hover {
   font-size: 1.2rem;
 }
 
+#thxMsg {
+  height: auto;
+  width: auto;
+  color: #c1839f;
+  font-family: 'Quantico', sans-serif;
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 5px;

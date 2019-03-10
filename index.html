@@ -64,6 +64,8 @@
         <div id="splash">
           <h1> Need some code? </h1>
           <p>I can deliver!
+            <br>
+
 
           </p>
         </div>
@@ -130,8 +132,7 @@
           <p>If you have a project you would like to get started on,
           think you may need help on, or just want to say hi.</p>
           <div class="form-container">
-            <form action="action_page.php">
-
+            <form action="scripts/php.php" onsubmit="thx()">
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname"
                 placeholder="First Name" required>
@@ -160,6 +161,7 @@
               <input type="submit" value="Submit to me~*">
 
             </form>
+            <div id="thxMsg"></div>
           </div>
         </div>
       </div>

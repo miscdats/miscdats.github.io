@@ -21,3 +21,7 @@ $(function(){
   });
 
 });
+
+function thx() {
+  document.getElementById( '#thxMsg' ).innerHTML = 'I\'ve got mail! Thanks, you\'ll be hearing back from me soon.';
+};

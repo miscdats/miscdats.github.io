@@ -130,10 +130,16 @@ nav {
   height: 250px;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
-#banner img {
-  min-width: 100%;
+.glitch-img {
+  background-image: url('../images/leaf-bg.png');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 main {
@@ -227,7 +233,7 @@ header h3 {
 main h1 {
   font-size: 2.2rem;
   color: #ff5a5f;
-  text-shadow: 1px 1px rgba(8, 126, 139, .8);
+  text-shadow: 2px 2px rgba(8, 126, 139, .8);
   letter-spacing: 1.5px;
   font-family: 'Quantico', sans-serif;
   margin-bottom: 15px;

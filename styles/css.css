@@ -144,15 +144,21 @@ nav {
 
 main {
   /* margin: 25px 0 25px 75px; */
-  padding: 20px;
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
   background-color: rgba(60,60,60,0.8);
 }
 
 #innards {
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   overflow-y: scroll;
-  height: 550px;
-  padding: 15px 30px 15px 30px;
+  padding: 35px 40px 25px 40px;
 }
 
 #splash, #about, #work, #contact {

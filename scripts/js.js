@@ -20,8 +20,8 @@ $(function(){
     zIndexStart: 5
   });
 
+  function thx() {
+    document.getElementById( '#thxMsg' ).innerHTML = 'I\'ve got mail! Thanks, you\'ll be hearing back from me soon.';
+  };
+  
 });
-
-function thx() {
-  document.getElementById( '#thxMsg' ).innerHTML = 'I\'ve got mail! Thanks, you\'ll be hearing back from me soon.';
-};

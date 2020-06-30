@@ -3,7 +3,7 @@ Reactive personal page at https://www.taupier.dev
 
 ![Splash page sample image](images/sample-splash.png?raw=true "Splash Page")
 
-![Home page sample image](images/sample-inside.png?raw=true "Home Page")
+![Home page sample image](images/sample-inside.png?raw=false "Home Page")
 
 
 ## Sections

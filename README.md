@@ -1,9 +1,9 @@
 # miscdats.github.io
 Reactive personal page at https://www.taupier.dev
 
-![Splash page sample image](images/sample-splash.png "Splash Page")
+![Splash page sample image](https://raw.githubusercontent.com/miscdats/miscdats.github.io/master/images/sample-splash.png?raw=false "Splash Page")
 
-![Home page sample image](images/sample-inside.png "Home Page")
+![Home page sample image](https://raw.githubusercontent.com/miscdats/miscdats.github.io/master/images/sample-splash.png?raw=true "Home Page")
 
 
 ## Sections
@@ -21,3 +21,4 @@ Blog to be added...
 * PHP (ready for future server upgrade)
 
 Thanks for reading!
+

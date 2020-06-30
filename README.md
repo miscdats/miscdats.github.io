@@ -1,9 +1,9 @@
 # miscdats.github.io
 Reactive personal page at https://www.taupier.dev
 
-![Splash page sample image](https://raw.githubusercontent.com/miscdats/miscdats.github.io/master/images/sample-splash.png?raw=false "Splash Page")
+![Splash page sample image](https://github.com/miscdats/miscdats.github.io/blob/master/images/sample-splash.png?raw=false "Splash Page")
 
-![Home page sample image](https://raw.githubusercontent.com/miscdats/miscdats.github.io/master/images/sample-splash.png?raw=true "Home Page")
+![Home page sample image](https://github.com/miscdats/miscdats.github.io/blob/master/images/sample-inside.png?raw=true "Home Page")
 
 
 ## Sections

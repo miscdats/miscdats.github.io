@@ -2,6 +2,7 @@
 Reactive personal page at https://www.taupier.dev
 
 ## Sections
+* Splash/landing
 * Home
 * Works/portfolio
 * About

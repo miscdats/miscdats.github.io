@@ -12,19 +12,6 @@ $(function(){
   };
 
   // SPLASH ANIMATIONS
-  $( '.glitch-img-splash' ).mgGlitch({
-    destroy: false,
-    glitch: true,
-    scale: true,
-    blend: true,
-    blendModeType: 'hue',
-    glitch1TimeMin: 200,
-    glitch1TimeMax: 400,
-    glitch2TimeMin: 10,
-    glitch2TimeMax: 100,
-    zIndexStart: 5
-  });
-
   function fade(element) {
     var op = 1;  // initial opacity
     var timer = setInterval(function () {
@@ -38,7 +25,6 @@ $(function(){
         op -= op * 0.1;
     }, 50);
   }
-
   setTimeout(function(){ 
     // Do not show splash if can't or already seen
     if (typeof(Storage) !== "undefined") {
@@ -46,6 +32,18 @@ $(function(){
 
       // Display splash, timeout to main
       if( !sessionStorage.getItem('splashShown') || sessionStorage.getItem('splashShown') === null ) {  
+        $( '.glitch-img-splash' ).mgGlitch({
+          destroy: false,
+          glitch: true,
+          scale: true,
+          blend: true,
+          blendModeType: 'hue',
+          glitch1TimeMin: 200,
+          glitch1TimeMax: 400,
+          glitch2TimeMin: 10,
+          glitch2TimeMax: 100,
+          zIndexStart: 5
+        });
         document.getElementById('wrap').style.display = 'none';
         document.getElementById('splashscreen').style.display = 'inline';
 

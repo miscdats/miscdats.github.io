@@ -1,10 +1,17 @@
 # miscdats.github.io
-reactive personal page at https://www.taupier.dev
+Reactive personal page at https://www.taupier.dev
 
-HTML
-CSS
-JS // jQuery
+## Sections
+* Home
+* Works/portfolio
+* About
+* Contact
+Blog to be added...
 
-(PHP ready for server change)
+### Tech used
+* HTML
+* CSS
+* JS // jQuery
+* PHP (ready for future server upgrade)
 
 Thanks for reading!

@@ -23,6 +23,31 @@ body {
   margin: auto;
 }
 
+
+#splashscreen {
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:#3c3c3c;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
+}
+
+.glitch-img-splash {
+  background-image: url('../images/leaf-bg.png');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: .9;
+}
+
 header {
   /* width: 99%; */
   padding: 1px 3px;

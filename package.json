@@ -1,0 +1,25 @@
+{
+  "name": "taupier.dev",
+  "version": "1.0.0",
+  "description": "Software Engineer for the gods.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miscdats/miscdats.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Deyanira Taupier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miscdats/miscdats.github.io/issues"
+  },
+  "homepage": "https://github.com/miscdats/miscdats.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

@@ -365,7 +365,7 @@ footer li {
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 2.0%;
+	margin: 1% 0 1% 1.0%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -382,7 +382,7 @@ footer li {
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
+	.col {  margin: 1% 0 1% 1%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 

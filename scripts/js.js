@@ -41,7 +41,7 @@ $(function(){
           glitch1TimeMin: 200,
           glitch1TimeMax: 400,
           glitch2TimeMin: 10,
-          glitch2TimeMax: 100,
+          glitch2TimeMax: 200,
           zIndexStart: 5
         });
         document.getElementById('wrap').style.display = 'none';
@@ -73,7 +73,7 @@ $(function(){
             glitch2TimeMax: 100,
             zIndexStart: 5
           });
-        }, 3500);
+        }, 4000);
         
       } else {
         //Display Main Content

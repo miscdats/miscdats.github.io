@@ -1,0 +1,33 @@
+languages:
+  - item: Java
+  - item: Python
+  - item: Javascript
+  - item: Go
+  - item: SQL
+  - item: HTML
+  - item: CSS / SASS
+  - item: LaTeX
+
+frameworks:
+  - item: Spring
+  - item: React
+  - item: Node
+  - item: Jekyll
+  - item: Bulma
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Docker
+  - item: Jenkins
+  - item: Postman
+  - item: Jira
+  - item: Kubernetes
+  - item: Travis
+  - item: Circle
+  - item: MongoDB
+
+environments: 
+  - item: AWS
+  - item: Azure
+  - item: Firebase

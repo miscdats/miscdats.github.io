@@ -8,9 +8,9 @@ skills: Software Engineer in Seattle, WA
 url: https://www.taupier.dev
 baseurl: '/'
 email: deyanira@taupier.dev
-cover: https://miscdats.github.io/images/spears.png
-logo: https://miscdats.github.io/images/cyberpokeball.ico
-resume: https://miscdats.github.io/DeyaniraTaupierResume.pdf
+cover: https://www.taupier.dev/images/spears.png
+logo: https://www.taupier.dev/images/cyberpokeball.ico
+resume: https://www.taupier.dev/DeyaniraTaupierResume.pdf
 
 # Social networks usernames (ex. google-plus, flickr, dribbble, pinterest, instagram, tumblr, etc.)
 social:

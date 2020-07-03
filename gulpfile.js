@@ -6,13 +6,13 @@
 // exports.default = defaultTask
 
 const gulp = require('gulp');
+const styles = require('./build/styles');
 const scripts = require('./build/scripts');
 const images = require('./build/images');
 const sync = require('./build/browsersync');
-const sass = require('./build/styles');
 
-[sass, scripts, images, sync].forEach(task => {
+[styles, scripts, images, sync].forEach(task => {
   task(gulp);
 });
 
-gulp.task('build', gulp.series(['sass', 'scripts', 'images', 'jekyll-build']));
+gulp.task('build', gulp.series(['styles', 'scripts', 'images', 'jekyll-build']));

@@ -2,16 +2,16 @@ const sass = require('gulp-sass');
 const prefix = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 
-const scssPath = '_scss/*.scss';
+const scssPath = '_styles/*.scss';
 const destPath = '_site/css';
 
 module.exports = gulp => {
-  gulp.task('sass', () => {
+  gulp.task('styles', () => {
     return gulp
       .src(scssPath)
       .pipe(
         sass({
-          includePaths: ['scss'],
+          includePaths: ['styles'],
           outputStyle: 'expanded',
         })
       )
@@ -23,6 +23,6 @@ module.exports = gulp => {
       )
       .pipe(cleanCSS({ compatibility: 'ie8' }))
       .pipe(gulp.dest(destPath))
-      .pipe(gulp.dest('css'));
+      .pipe(gulp.dest('styles'));
   });
 };

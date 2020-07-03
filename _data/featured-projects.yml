@@ -1,0 +1,67 @@
+- name: Umano Properties Key Management
+  url: https://api.2edusite.com/
+  code: https://github.com/miscdats/KeyManagement
+  description: Web app service in AWS environment, allows for users to interact with and keep track of inventory of keys for properties across the state.
+  used:
+    - thing: SQL
+    - thing: Python
+    - thing: Javascript
+    - thing: Node.js
+    - thing: AWS
+    - thing: Travis CI
+
+- name: EDA on Trending YouTube Videos and Positive Language
+  url: https://www.kaggle.com/miscdats/eda-on-trending-youtube-videos-positive-language
+  code: https://github.com/miscdats/positive_youtube
+  description: Jupyter Notebook exploring the metadata for YouTube videos in select countries, looking for a pattern in success.
+  used:
+    - thing: Python
+    - thing: Jupyter
+    - thing: Anaconda
+    - thing: Tensorflow / Keras
+    - thing: Machine Learning / Deep Learning
+    - thing: Natural Language Processing
+
+- name: Friends of Noise - Member Portal, Event Calendar, and Store
+  url: http://friendsofnoise.org/members
+  code: https://github.com/miscdats/FriendsOfNoise
+  description: Portal and ticketing / merchandise store for non-profit music venue directed towards youth.
+  used:
+    - thing: Javascript
+    - thing: Node.js
+    - thing: React
+    - thing: Firebase
+    - thing: SASS
+    - thing: Express
+
+- name: SnakeParty RPG
+  url: https://repl.it/@miscdats/snakeparty-rpg
+  code: https://github.com/miscdats/SnakeParty-RPG
+  description: Graphical Python game mathematically generating puzzles and adventure with sprites.
+  used:
+    - thing: Python
+    - thing: Math
+    - thing: PyGame
+    - thing: Arcade
+
+- name: i-de-a
+  url: https://play.google.com/store/apps/details?id=com.tunigold.idea
+  code: https://github.com/miscdats/idea
+  description: Swiping-style Android app that goes through our client's personal collection of photos to tag, hosted on Firestore, and allows user to like/dislike to personal lists.
+  used:
+    - thing: Java
+    - thing: Kotlin
+    - thing: Android
+    - thing: Circle CI
+    - thing: Firebase
+    - thing: Google Cloud
+
+- name: SeaWatch
+  url: https://play.google.com/store/apps/details?id=dev.taupier.android.seawatch
+  code: https://github.com/miscdats/SeaWatch
+  description: Android app connected to SDOT cameras using coarse location.
+  used:
+    - thing: Java
+    - thing: Android
+    - thing: SDOT API
+    - thing: Google Maps API

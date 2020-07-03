@@ -1,2 +1,7 @@
+.idea
 .DS_Store
+_site
 node_modules
+.jekyll-cache
+Gemfile
+Gemfile.lock

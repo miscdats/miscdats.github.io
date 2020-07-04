@@ -1,0 +1,61 @@
+<section class="section work">
+  <div class="section__title">Work</div>
+  <div class="section__content">
+    <div class="jobs">
+      {% for job in site.data.experience %}
+      <div class="job">
+        <div class="time-place">
+          <div class="job__company">
+            <a href="{{job.url}}" target="_blank">{{job.company}}</a>
+          </div>
+          <div class="job__time">{{job.time}}</div>
+        </div>
+        <div class="job__position">{{job.position}}</div>
+      </div>
+      {% endfor %}
+    
+      <br>
+      <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a>
+
+      <div id="work"><!-- style="display: none"> -->
+        <p><br>
+          Languages: English, Spanish, Java, Python, Golang, Javascript...
+        </p>
+        <p>
+          Educational focuses: web application development, data structures and algorithms, database technology, cloud infrastructure...
+        </p>
+        <h2>I am presently seeking a good fit with other collaborative and dedicated folks. 
+          If you think we would work well together, I'd love to hear from you! </h2>
+        <p>
+          My most recent experience was at SAP Concur as a Software Design Engineer 
+          Intern. It was so invigorating I stayed a little longer than planned, before 
+          returning to see myself through the finish line of my student career. 
+          I worked in Golang and Java, developing a solution for big data migrations, 
+          among other projects, and gained invaluable knowledge in code ownership 
+          and agile workflow with a fantastic team.
+        </p>
+        <p>
+          Prior, I was part of a team of students working to gain experience practically.
+          We had short term contracts with clients, developing different apps and services.
+          My work has involved database design and serverless APIs, cloud infrastructure
+          and cybersecurity. With this, I've played a variety of roles while we spun up
+          apps and services on platforms like AWS, Azure, Firebase from the ground up
+          to production.
+        </p>
+        <p>
+          In the past, I have created and deployed Python scripts, automating
+          secure data input in real-time, saving hundreds of employee hours.
+          Presented research and proof of concept in migrating databases from
+          legacy; then launching custom scripts and ensuring future-proofing.
+        </p>          
+        <p>
+          I have a background in psychology and incorporate that in
+          my designs, facilitating the connection between user and technology while
+          using the most effective communications in documentation.
+        </p>
+      </div>
+      
+    </div>
+
+  </div>
+</section>

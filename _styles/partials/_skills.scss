@@ -1,0 +1,28 @@
+.skills {
+  .skillz {
+    display: flex;
+    justify-content: space-between;
+    @include weird-medium {
+      flex-wrap: wrap;
+    }
+    &__category {
+      @include weird-medium {
+        width: 47%;
+        margin-right: 5px;
+        margin-bottom: 25px;
+      }
+      &__label {
+        font-weight: 700;
+        color: $blue;
+        text-transform: uppercase;
+      }
+      &__item {
+        color: $off-white;
+        margin: 3px 0;
+        font-size: 0.9rem;
+      }
+      
+      color: $off-white;
+    }
+  }
+}

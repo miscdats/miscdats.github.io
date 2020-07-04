@@ -1,0 +1,34 @@
+{
+  "name": "taupier.dev",
+  "version": "2.0.0",
+  "description": "Software Engineer for the gods.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve --watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miscdats/miscdats.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Deyanira Taupier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miscdats/miscdats.github.io/issues"
+  },
+  "homepage": "https://github.com/miscdats/miscdats.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "@nuscout/eslint-config": "^0.2.1",
+    "browser-sync": "^2.26.7",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "6.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "3.0.2"
+  }
+}

@@ -1,0 +1,19 @@
+<footer class="footer">
+  <div class="footer__copyright">
+    <div class="top">
+      <span>made with <span><i class="fas fa-heart"></i></span>
+    </div>
+    <div class="bottom">
+      <span>Deyanira Taupier</span>
+      <span> &copy; 2020</span>
+    </div>
+  </div>
+  <div class="footer__links">
+    {% for link in site.social %}
+    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+      <span class="text">{{link.title}}</span>
+      <img src="images/social/{{link.title}}.svg" alt="{{link.title}}">
+    </a>
+    {% endfor %}
+  </div>
+</footer>

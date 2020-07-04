@@ -18,8 +18,8 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $white;
-  color: $dark-grey;
+  background-color: RGBA(193, 131, 159, .6);
+  // color: $dark-grey;
   font-family: $Apercu;
   line-height: 1.5;
   width: 100%;
@@ -51,22 +51,43 @@ body {
       color: $off-white;
     }
     .section__content .underline-link:after {
-      background: $off-white;
+      background: $red;
     }
   }
+}
+
+// body::after {
+#site::after{
+  content: "";
+  background: url('../images/vapormt.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 a {
   @include transition;
   text-decoration: none;
   font-weight: 700;
-  color: inherit;
+  color: $purple;
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  color: $off-white;
+  li {
+    color: $off-white;
+  }
 }
 
 svg {
@@ -94,9 +115,10 @@ strong {
 }
 
 .section {
+  background-color: rgba(60,60,60,0.3);
   display: flex;
   justify-content: center;
-  padding: 100px 170px;
+  padding: 100px 180px;
   @include thirteen {
     padding: 100px;
   }
@@ -141,11 +163,20 @@ strong {
     @include mobile {
       padding-left: 30px;
     }
+    a :active {
+      color: $blue;
+    }
+    h2, h3 {
+      color: $blue;
+      margin-top: 0;
+    }
     p {
+      color: $off-white;
       margin-top: 0;
       margin-bottom: 25px;
     }
     .underline-link {
+      color: $blue;
       position: relative;
       display: inline-block;
       &:after {
@@ -154,7 +185,7 @@ strong {
         left: 0;
         width: 100%;
         height: 1px;
-        background: $black;
+        background: $red;
         content: '';
         opacity: 0;
         transition: height 0.3s, opacity 0.3s, transform 0.3s;
@@ -175,6 +206,7 @@ strong {
 
 .arrow-link {
   @include transition;
+  color: $blue;
   font-weight: 700;
   display: inline-block;
   background-color: transparent;
@@ -191,6 +223,8 @@ strong {
     height: 15px;
     display: inline-block;
     vertical-align: middle;
+    color: $red;
+    text-decoration: overline;
   }
   &:hover:after {
     transform: translateX(7px);
@@ -199,7 +233,7 @@ strong {
 
 .small {
   font-family: 'Inconsolata', monospace;
-  font-size: 0.85rem;
+  font-size: 0.90rem;
   display: inline-block;
   margin-top: 15px;
   &:after {
@@ -218,6 +252,7 @@ strong {
   right: 10px;
   cursor: pointer;
   display: none;
+  transform: rotate(270deg);
   @include desktop {
     bottom: 20px;
     right: 7px;
@@ -247,4 +282,62 @@ strong {
 .in-view {
   opacity: 1;
   transform: translateZ(0);
+}
+
+// let's start here
+.section a {
+  color: $blue;
+  // text-decoration: none;
+  font-weight: bold;
+}
+
+.section a:hover {
+  color: $purple;
+}
+
+.section a:visited {
+  color: $red;
+  text-decoration: overline;
+}
+
+
+main h1 {
+  font-size: 2.2rem;
+  // color: $red;
+  text-shadow: 2px 2px rgba(8, 126, 139, .8);
+  letter-spacing: 1.5px;
+  font-family: 'Quantico', sans-serif;
+  margin-bottom: 15px;
+}
+
+main h2 {
+  font-size: 1.25rem;
+  color: $blue;
+  margin-bottom: 20px;
+  // text-shadow: none;
+  font-family: 'Quantico', sans-serif;
+}
+
+main h3 {
+  font-size: 1.25rem;
+  // color: #c1839f;
+  color: $blue;
+  // text-shadow: none;
+  font-family: 'Quantico', sans-serif;
+}
+
+main p {
+  margin:auto auto 10px;
+  line-height: 1.2;
+  font-family: 'Raleway', sans-serif;
+  color: $off-white;
+  font-size: 1.2rem;
+  letter-spacing: .05rem;
+  margin: 10px 0 0 10px;
+  text-shadow: 1px 2px #3c3c3c;
+}
+
+#contact i {
+  font-size: 2.2rem;
+  margin: 0 20px 10px 10px;
 }

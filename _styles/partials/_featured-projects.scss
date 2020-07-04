@@ -18,7 +18,7 @@
       display: block;
       margin-bottom: 70px;
     }
-    &.screentime {
+    &.seawatch {
       margin-bottom: 70px;
     }
     &:last-of-type {
@@ -38,9 +38,13 @@
         }
         .phone {
           margin: 0 -7%;
-          &:first-of-type {
-            margin-left: -5%;
+          &:last-of-type {
+            // margin-left: -5%;
+            margin-right: 1rem;
           }
+        }
+        .phone img {
+          max-height: 700px;
         }
       }
       img {

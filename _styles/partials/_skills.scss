@@ -13,13 +13,16 @@
       }
       &__label {
         font-weight: 700;
-        color: $black;
+        color: $blue;
         text-transform: uppercase;
       }
       &__item {
+        color: $off-white;
         margin: 3px 0;
         font-size: 0.9rem;
       }
+      
+      color: $off-white;
     }
   }
 }

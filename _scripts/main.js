@@ -87,9 +87,6 @@ $(function(){
       }
     }, 0);
   
-  });
-  
-  $(function() {
     const d = new Date();
     const hours = d.getHours();
     const night = hours >= 19 || hours <= 7; // between 7pm and 7am

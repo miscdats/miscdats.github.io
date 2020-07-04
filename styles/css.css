@@ -197,7 +197,7 @@ footer {
   height: 30px;
   clear: both;
   padding-top: 5px;
-  width: 96%;
+  width: 100%;
 }
 
 footer ul {
@@ -356,46 +356,46 @@ main p {
 
 footer {
   font-family: 'Quantico', sans-serif;
-  background-color: #3c3c3c;
+  /* background-color: #3c3c3c; */
 }
 
 footer li {
   font-size: .875rem;
-  color: #c1839f;
+  color: #087e8b;
 }
 
 
 /*  SECTIONS  */
-.section {
+/* .section {
 	clear: both;
 	padding: auto;
   margin: auto;
-}
+} */
 
 /*  COLUMN SETUP  */
-.col {
+/* .col {
 	display: block;
 	float:left;
 	margin: auto 0 1% 2.0%;
 }
-.col:first-child { margin-left: 0; }
+.col:first-child { margin-left: 0; } */
 
 /*  GROUPING  */
-.group:before,
+/* .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
+.group { zoom:1; /* For IE 6/7 * / } */
 
 /*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
+/* .span_3_of_3 { width: 100%; }
 .span_2_of_3 { width: 66%; }
-.span_1_of_3 { width: 32%; }
+.span_1_of_3 { width: 32%; } */
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
-}
+} */
 
 input[type=text], select, textarea, input[type=email] {
   font-family: 'Raleway', sans-serif;

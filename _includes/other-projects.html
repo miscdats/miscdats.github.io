@@ -1,12 +1,11 @@
 <section class="section other-projects">
-  <!-- <div class="section__title">Projects</div> -->
-  <div class="section__title"></div>
+  <div class="section__title">Repositories</div>
 
   <div class="section__content">
     {% for project in site.data.projects %}
     <div class="project">
       <div class="project__name">
-        <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
+        <a href="{{project.code}}" target="_blank" class="arrow-link">{{project.name}}</a>
       </div>
       <p>{{project.description}}</p>
       <div class="project__used">

@@ -1,5 +1,5 @@
 .footer {
-  padding: 50px 80px;
+  padding: 25px 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,6 +17,8 @@
     font-weight: 700;
     width: 200px;
     color: $purple;
+    text-shadow: 1px 1px $blue;
+    opacity: .8;
     @include weird-medium {
       width: auto;
       text-align: center;
@@ -50,6 +52,7 @@
       font-weight: 700;
       margin: 0 15px;
       outline: none;
+      mask-size: cover;
       @include desktop {
         margin: 0 10px;
       }
@@ -70,9 +73,10 @@
       }
       &:hover:after,
       &:focus:after {
+        filter: invert(44%) sepia(83%) saturate(528%) hue-rotate(310deg) brightness(99%) contrast(103%);
         height: 2px;
         border-radius: 3px;
-        opacity: 1;
+        opacity: .9;
         transform: translateY(0px);
       }
       .text {
@@ -87,27 +91,26 @@
     img {
       // display: none;
       width: 22px;
+      color: $green;
+      filter: invert(28%) sepia(58%) saturate(3539%) hue-rotate(167deg) brightness(87%) contrast(94%);
       @include little-desktop {
         display: inline-block;
       }
     }
   }
-
-
-  ::after {
-    content: "";
-    background: RGBA(193, 131, 159, .3) url('../images/vapormt.jpg') stretch bottom center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    opacity: .3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
-
+}
+.footer::after {
+  content: "";
+  background: rgba(193, 131, 159, .3) url('../images/vapormt.jpg') bottom bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
 }

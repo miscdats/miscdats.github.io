@@ -4,7 +4,7 @@
   </h1>
   <h2 class="intro__tagline">I'm
     <span class="name">Deyanira Taupier</span>, a software engineer focused on making good decisions.
-    <!-- <span class="emoji technologist"></span> -->
+    <!-- <span class="emoji technology"> -->
   </h2>
 
   <h3 class="intro__contact">
@@ -13,6 +13,13 @@
     <span>
       <a href="mailto:deyanira@taupier.dev" target="_blank" class="highlight-link">deyanira@taupier.dev</a>
     </span>
-    :]
+    <div class="intro__links">
+      {% for link in site.social %}
+      <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+        <span class="text">{{link.title}}</span>
+        <img src="images/social/{{link.title}}.svg" alt="{{link.title}}">
+      </a>
+      {% endfor %}
+    </div>
   </h3>
 </header>

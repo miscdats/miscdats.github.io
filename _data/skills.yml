@@ -5,7 +5,8 @@ languages:
   - item: Go
   - item: SQL
   - item: HTML
-  - item: CSS / SASS
+  - item: CSS / Sass / SCSS / Less
+  - item: Jade / Pug
   - item: LaTeX
 
 frameworks:

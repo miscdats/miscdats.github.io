@@ -153,7 +153,7 @@ nav {
 
 /* ********** TOP BANNER ********** */
 #banner {
-  background-color: rgba(60,60,60,0.8);
+  background-color: rgba(60,60,60,0.5);
   height: 10rem;
   width: 96%;
   overflow: hidden;
@@ -174,7 +174,7 @@ main {
   width: 96%;
   /* padding-top: 100%; */
   position: relative;
-  background-color: rgba(60,60,60,0.8);
+  background-color: rgba(60,60,60,0.5);
 }
 
 #innards {

@@ -12,6 +12,7 @@ languages:
 frameworks:
   - item: Spring
   - item: React
+  - item: Flask
   - item: Node
   - item: Jekyll
   - item: Bulma
@@ -27,8 +28,10 @@ tools:
   - item: Travis
   - item: Circle
   - item: MongoDB
+  - item: Redis
 
 environments: 
   - item: AWS
   - item: Azure
   - item: Firebase
+  - item: Heroku

@@ -1,3 +1,16 @@
+- name: The Bjorker
+  url: http://bjorker.herokuapp.com
+  code: https://github.com/miscdats/The-Bjorker
+  description: Flask app deployed on Heroku, uses machine learning trained model to consume Spotify music analysis APIs to accurately assess whether the user's playlist would be inspiring to Bjork.
+  used:
+    - thing: Python
+    - thing: Redis
+    - thing: Javascript
+    - thing: HTML
+    - thing: CSS
+    - thing: Spotify API
+    - thing: Heroku
+
 - name: Umano Properties Key Management
   url: https://api.2edusite.com/
   code: https://github.com/miscdats/KeyManagement

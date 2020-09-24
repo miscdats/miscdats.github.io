@@ -174,7 +174,7 @@ main {
   width: 96%;
   /* padding-top: 100%; */
   position: relative;
-  background-color: rgba(60,60,60,0.5);
+  background-color: rgba(60,60,60,0.8);
 }
 
 #innards {
@@ -213,6 +213,10 @@ footer li {
 /* ********** IMAGES ********** */
 img {
     max-width: 100%;
+}
+
+.project__pic img {
+  max-height: 550px;
 }
 
 /* +++  +++   +++ Typography +++  +++   +++ */
@@ -295,6 +299,7 @@ header {
 header h1 {
   font-size: 5rem;
   color: #087e8b;
+  text-shadow: 2px 2px #ff5a5f;
   line-height: 70px;
   margin-bottom: 10px;
 }
@@ -346,7 +351,7 @@ main p {
   letter-spacing: .05rem;
   text-indent: 1rem;
   margin: 10px 0 0 10px;
-  text-shadow: 2px 2px #3c3c3c;
+  text-shadow: 2px 3px #3c3c3c;
 }
 
 #contact i {

@@ -2,7 +2,7 @@
 name: Deyanira Taupier
 title: Deyanira Taupier | Software Engineer
 description: Back-end engineering, data, design, coding, programming, and fun.
-keywords: Software Engineer, Software Developer, Java, Python, Javascript, Go, Data Pipelines, Cloud, Data Science, Machine Learning, Deep Learning, Agile, Deya, Deyanira, Taupier, Deyanira Taupier, miscdats, misc.dats
+keywords: Software Engineer, Software Developer, Software Development Engineer, Software Design Engineer, Programmer, Coder, Development, Design, Backend, Back-end, Back end, Full-Stack, Full Stack, Java, Python, Javascript, Go, Data Pipelines, Cloud, Data Science, Machine Learning, Deep Learning, Agile, Waterfall, Program, Deya, Deyanira, Taupier, Deyanira Taupier, miscdats, misc.dats, misc_dats, misc-dats
 skills: Software Engineer in Seattle, WA
 
 url: https://www.taupier.dev
@@ -19,7 +19,7 @@ social:
   - title: github
     url: https://github.com/miscdats
   - title: linkedin
-    url: https://www.linkedin.com/in/miscdats
+    url: https://www.linkedin.com/in/taupier
   # - title: repl.it
   #   url: https://repl.it/@miscdats
   # - title: twitter
@@ -32,7 +32,7 @@ social:
   #   url: https://medium.com/@miscdats
 
 # Google webmaster tools google site verification
-google_verify:
+google_verify: google-site-verification=ewbD4BNXy6cwwiWubHy-vfTLUgsh15uwEA9_TJ3P358
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:

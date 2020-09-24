@@ -1,11 +1,13 @@
 languages:
   - item: Java
   - item: Python
-  - item: Javascript
+  - item: JavaScript
   - item: Go
   - item: SQL
   - item: HTML
-  - item: CSS / Sass / SCSS / Less
+  - item: CSS
+  - item: Sass / SCSS / Less
+  - item: XML
   - item: Jade / Pug
   - item: LaTeX
 
@@ -13,20 +15,23 @@ frameworks:
   - item: Spring
   - item: React
   - item: Flask
-  - item: Node
+  - item: Node.js
   - item: Jekyll
   - item: Bulma
+  - item: REST
+  - item: SOAP
 
 tools:
-  - item: Bash
-  - item: Git & Github
+  - item: bash
+  - item: git
+  - item: Github
   - item: Docker
   - item: Jenkins
   - item: Postman
   - item: Jira
   - item: Kubernetes
-  - item: Travis
-  - item: Circle
+  - item: Travis CI
+  - item: Circle CI
   - item: MongoDB
   - item: Redis
 

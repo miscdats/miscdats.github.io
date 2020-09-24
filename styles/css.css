@@ -215,8 +215,8 @@ img {
     max-width: 100%;
 }
 
-.project__pic {
-  max-height: 450px;
+.featured-projects .project__pic {
+  max-width: 550px;
 }
 
 /* +++  +++   +++ Typography +++  +++   +++ */

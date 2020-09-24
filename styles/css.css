@@ -215,7 +215,7 @@ img {
     max-width: 100%;
 }
 
-.project__pic img {
+.project__pic {
   max-height: 450px;
 }
 
